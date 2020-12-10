@@ -35,9 +35,10 @@ public class checkBorrowStatus extends HttpServlet {
 		SimpleDateFormat dataFormat = new SimpleDateFormat("HH");
 		Date d = new Date();
 		String time=dataFormat.format(d);
-		System.out.println(time);
-		if(Integer.parseInt(time)>18) {
+		System.out.println("====>"+Integer.parseInt(time));
+		if(Integer.parseInt(time)>=18) {
 			try {
+				System.out.println("=======>rid="+rid+"dcid"+dcid+"copy"+copyNumber+"branch"+branchId+"<========");
 				connect.cancelReservation(rid, dcid, copyNumber, branchId);
 				response.sendRedirect("ReserveBook.jsp?reserve=fail");
 			} catch (Exception e) {

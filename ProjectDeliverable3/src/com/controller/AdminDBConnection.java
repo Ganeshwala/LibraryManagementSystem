@@ -1242,6 +1242,7 @@ public class AdminDBConnection {
 	public boolean cancelReservation(int rid,int dcid,int copyNumber,int branchId) throws Exception {
 		getConnection();
 		query = "delete from reserves where documentId='"+dcid+"' and copyNumber='"+copyNumber+"' and libraryId='"+branchId+"' and readerID='"+rid+"'";
+		statement=connect.createStatement();
 		int rowCount= statement.executeUpdate(query);
 		if(rowCount==0) {
 			return false;

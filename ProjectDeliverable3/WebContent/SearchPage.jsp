@@ -17,8 +17,12 @@
 				<lable>Select Branch</lable>
 				<select name="selectBranch">
 					<option value="Not Select">Select Library Name</option>
-					<option value="parsippany">Parsippany</option>
-					<option value="jerseyCity">Jersey City</option>
+					<option value="Parsippany">Parsippany</option>
+					<option value="JerseyCity">Jersey City</option>
+					<option value="Five Corne">Five Corne</option>
+					<option value="Lafayette">Lafayette</option>
+					<option value="City Library">City Library</option>
+					<option value="Public Library">Public Library</option>
 				</select>&nbsp;
 				Search Id:<input type="text" name="bookId" placeholder="Enter Book Id" autofocus> &nbsp;
 				Search Title:<input type="text" name="bookTitle" placeholder="Enter Book Title"> &nbsp;
@@ -81,7 +85,7 @@
 				boolean k = (request.getParameter("reserve")!=null);
 				if(k){
 					%>
-					<p style="color:red;">This Book already Reserved or Borrowed or If it is available then you Reserves more than your limit</p>
+					<p style="color:red;">This Book already Reserved or Borrowed or if it is available then you have reached your limit.</p>
 					<%
 				}			
 			%>
@@ -89,7 +93,7 @@
 				boolean j = (request.getParameter("borrow")!=null);
 				if(j){
 					%>
-					<p style="color:red;">This Book already Reserved or Borrowed or If it is available then you Borrows more than your limit</p>
+					<p style="color:red;">This Book already Reserved or Borrowed or if it is available then you have reached your limit.</p>
 					<%
 				}			
 			%>

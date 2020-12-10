@@ -17,8 +17,12 @@
 				<label>Select Branch:</label>
 				<select name="selectBranch">
 					<option value="Not Select">Select Library Name</option>
-					<option value="parsippany">Parsippany</option>
-					<option value="jerseyCity">Jersey City</option>
+					<option value="Parsippany">Parsippany</option>
+					<option value="JerseyCity">Jersey City</option>
+					<option value="Five Corne">Five Corne</option>
+					<option value="Lafayette">Lafayette</option>
+					<option value="City Library">City Library</option>
+					<option value="Public Library">Public Library</option>
 				</select>
 				<input type="submit" value="Search"> 
 			</form>

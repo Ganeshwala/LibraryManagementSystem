@@ -61,8 +61,12 @@
 						<td>Branch Name:</td>
 						<td>
 							<select name="branchName">
-								<option value="parsippany">Parsippany</option>
-								<option value="jerseyCity">Jersey City</option>
+								<option value="Parsippany">Parsippany</option>
+								<option value="JerseyCity">Jersey City</option>
+								<option value="Five Corne">Five Corne</option>
+								<option value="Lafayette">Lafayette</option>
+								<option value="City Library">City Library</option>
+								<option value="Public Library">Public Library</option>
 							</select>
 						</td>
 					</tr>
@@ -76,7 +80,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<input type="submit" value="Add Book">
+							<input type="submit" value="Add Document">
 						</td>
 					</tr>
 				</table>

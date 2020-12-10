@@ -64,7 +64,7 @@
 				boolean k = (request.getParameter("reserve")!=null);
 				if(k){
 					%>
-					<p style="color:red;">Reservaction ahs been cancel. You need pickup book before 6PM</p>
+					<p style="color:red;">Reservaction has been cancel. You need pickup book before 6PM</p>
 					<%
 				}			
 			%>
