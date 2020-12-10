@@ -55,7 +55,7 @@
 						<td><input type="hidden" name="returnDate" value="<%=date.toString() %>"></td>
 					</tr>
 					<tr>
-						<td>ring Time</td>
+						<td>Return Time</td>
 						<td>
 						<%
 							SimpleDateFormat timeFormatter= new SimpleDateFormat("hh:mm:ss");
