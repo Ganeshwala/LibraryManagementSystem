@@ -13,7 +13,7 @@ public class AdminDBConnection {
 	public ArrayList user;
 	public List<Map> list = new ArrayList<Map>();
 	private String connectionPath="jdbc:mysql://localhost:3306/library";
-	private String hostName="Ganeshwc",password="N84e6BFr@27";
+	private String hostName="Ganeshwc",password="";
 	public String readerId,readerName;
 	private String query,query1,queryAddUser,queryAddPublisher,queryAddPerson,queryAddDocument,queryAddBook,queryAddAuthor,queryAddBranch,queryAddCopy,queryAddReservation,queryDeleteBorrowBook,queryAddVolume,queryAddVolumeIssue,queryAddVolumeGuest;
 	private String queryForTopNReaderList;
